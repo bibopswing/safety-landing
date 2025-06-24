@@ -1,0 +1,12 @@
+.title {
+  width: 100%;
+  line-height: 1.2;
+
+  .gradient-text {
+    background: var(--yellow-blue-stroke-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}

@@ -1,0 +1,59 @@
+.circle__distant {
+  opacity: 0; 
+  animation: ease-in 0.6s distant f 1s;
+}
+
+.circle__closest {
+  transform: translate(18%, 28%);
+  animation: ease-in 0.6s closest forwards 1s;
+}
+
+.circle__middle__left {
+  transform: translate(-11%, 25%);
+  animation: ease-in 0.6s left forwards 1s;
+}
+
+.circle__middle__right {
+   transform: translate(-19%, 16%);
+  animation: ease-in 0.6s right forwards 1s;
+}
+
+@keyframes distant {
+  0% {
+    transform: translate(10%, 21%);
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes closest {
+  0% {
+    transform: translate(18%, 28%);
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes left {
+  0% {
+    transform: translate(-11%, 25%);
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes right {
+  0% {
+ transform: translate(-19%, 16%);
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+  }
+}

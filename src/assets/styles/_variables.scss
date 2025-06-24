@@ -1,0 +1,129 @@
+//uncomment the following lines to use light theme
+// :root {
+//   --bg-color: rgba(255, 255, 255, 1);
+//   --text-color: #000000;
+
+//   --button-bg: rgba(15, 15, 16, 1);
+//   --button-text: rgba(255, 255, 255, 1);
+
+//   /*common*/
+//   --dark-blue: rgba(55, 89, 176, 1);
+//   --black: rgba(15, 15, 16, 1);
+//   --gray:rgba(51, 51, 51, 1);
+//   --darkest-blue: rgba(18, 44, 111, 1);
+//   --purple: rgba(215, 82, 255, 1);
+//   --pink: rgba(255, 82, 125, 1);
+//   --green: rgba(47, 226, 124, 1);
+//   --yellow-darker: rgba(255, 217, 82, 1);
+//   /*common*/
+
+//   --yellow: rgba(255, 217, 82, 1)
+//   --blue: rgba(79, 125, 244, 1);
+
+//   --primary-1: rgba(1, 1, 1, 1);
+//   --secondary-1: rgba(251, 251, 251, 1);
+//   --tertiary-1: rgba(138, 138, 138, 1);
+//   --primary-2: rgba(255, 255, 255, 1);
+//   --secondary-2: rgba(251, 251, 251, 1);
+//   --tertiary-2: rgba(201, 201, 201, 1);
+//   --tertiary-3: rgba(255, 255, 255, 0.0118);
+
+//   --yellow-blue-gradient: linear-gradient(270.58deg, #618DFF 6.09%, #FFFFFF 48.89%, #FFD336 91.68%);
+//   --yellow-blue-stroke-gradient: linear-gradient(95.97deg, #FFD436 -5.62%, #FFFFFF 51.11%, #4E80FF 107.85%);
+//   --fading-yellow-gradient: linear-gradient(90deg, #FFD952 0%, rgba(255, 217, 82, 0) 100%);
+// }
+
+:root {
+  --bg-color: rgba(15, 15, 16, 1);
+  --text-color: #ffffff;
+
+  --button-bg: rgba(255, 255, 255, 1);
+  --button-text: rgba(15, 15, 16, 1);
+
+  /*common*/
+  --dark-blue: rgba(55, 89, 176, 1);
+  --black: rgba(15, 15, 16, 1);
+  --darkest-blue: rgba(18, 44, 111, 1);
+  --purple: rgba(215, 82, 255, 1);
+  --pink: rgba(255, 82, 125, 1);
+  --gray: rgba(51, 51, 51, 1);
+  --green: rgba(47, 226, 124, 1);
+  --yellow-darker: rgba(255, 217, 82, 1);
+  /*common*/
+
+  --yellow: rgba(255, 237, 99, 1);
+  --blue: rgba(116, 155, 255, 1);
+
+  --primary-1: rgba(255, 255, 255, 1);
+  --secondary-1: rgba(30, 30, 30, 1);
+  --tertiary-1: rgba(255, 255, 255, 0.6);
+
+  --primary-2: rgba(255, 255, 255, 0.6);
+  --secondary-2: rgba(30, 30, 30, 1);
+  --tertiary-2: rgba(62, 62, 62, 1);
+
+  --yellow-blue-gradient: linear-gradient(
+    270.58deg,
+    #618dff 6.09%,
+    #ffffff 48.89%,
+    #ffd336 91.68%
+  );
+  --yellow-blue-stroke-gradient: linear-gradient(
+    95.97deg,
+    #ffd436 -5.62%,
+    #ffffff 51.11%,
+    #4e80ff 107.85%
+  );
+  --fading-yellow-gradient: linear-gradient(
+    90deg,
+    #ffd952 0%,
+    rgba(255, 217, 82, 0) 100%
+  );
+}
+
+.dark {
+  --bg-color: rgba(15, 15, 16, 1);
+  --text-color: #ffffff;
+
+  --button-bg: rgba(255, 255, 255, 1);
+  --button-text: rgba(15, 15, 16, 1);
+
+  /*common*/
+  --dark-blue: rgba(55, 89, 176, 1);
+  --black: rgba(15, 15, 16, 1);
+  --darkest-blue: rgba(18, 44, 111, 1);
+  --purple: rgba(215, 82, 255, 1);
+  --pink: rgba(255, 82, 125, 1);
+  --green: rgba(47, 226, 124, 1);
+  --yellow-darker: rgba(255, 217, 82, 1);
+  /*common*/
+
+  --yellow: rgba(255, 237, 99, 1);
+  --blue: rgba(116, 155, 255, 1);
+
+  --primary-1: rgba(255, 255, 255, 1);
+  --secondary-1: rgba(30, 30, 30, 1);
+  --tertiary-1: rgba(255, 255, 255, 0.6);
+
+  --primary-2: rgba(255, 255, 255, 0.6);
+  --secondary-2: rgba(30, 30, 30, 1);
+  --tertiary-2: rgba(62, 62, 62, 1);
+
+  --yellow-blue-gradient: linear-gradient(
+    270.58deg,
+    #618dff 6.09%,
+    #ffffff 48.89%,
+    #ffd336 91.68%
+  );
+  --yellow-blue-stroke-gradient: linear-gradient(
+    95.97deg,
+    #ffd436 -5.62%,
+    #ffffff 51.11%,
+    #4e80ff 107.85%
+  );
+  --fading-yellow-gradient: linear-gradient(
+    90deg,
+    #ffd952 0%,
+    rgba(255, 217, 82, 0) 100%
+  );
+}

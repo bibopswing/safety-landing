@@ -1,0 +1,874 @@
+{
+  "Header": {
+    "hub": "SAFETY Hub",
+    "explore": "Explore",
+    "ecosystem": "Ecosystem",
+    "learn": "Learn",
+    "security": "Security",
+    "button": "Try Out Dashboard"
+  },
+
+  "NewValue": {
+    "title-1": "We’re not here with new tech.",
+    "title-2": "We’re here with new value.",
+    "text-1": "SAFETY connects what you do to what’s next — mining, learning, earning, sending.",
+    "text-2": "All in one place.",
+    "list-title-1": "Mine Smarter",
+    "list-text-1": "Stack points through mining. Simple and steady.",
+    "list-title-2": "Covert Growth",
+    "list-text-2": "Points come from activity. Tokens come from growth.",
+    "list-title-3": "Go Borderless",
+    "list-text-3": "Your token, your access. Send it anywhere."
+  },
+
+  "Tabs": {
+    "title-1": "Your safety is not a feature.",
+    "title-2": "It’s our foundation.",
+    "text": "Security Beyond the Wallet – From Mining to Real-World Finance.",
+    "list": {
+      "Key Security Concepts": {
+        "title": "Verified activity patterns block bots and automation.",
+        "items": [
+          {
+            "text": "Activity verification algorithms"
+          },
+          {
+            "text": "Suspicious access detection"
+          },
+          {
+            "text": "User behavior analysis"
+          }
+        ]
+      },
+      "Global Web3 Account Security": {
+        "title": "Secure integration with KYC-compliant banks and fintech APIs.",
+        "items": [
+          {
+            "text": "Bank API + smart contract integration"
+          },
+          {
+            "text": "Multi-factor authentication"
+          },
+          {
+            "text": "KYC token architecture"
+          }
+        ]
+      },
+      "Real-World Payment Security": {
+        "title": "All fiat payments connected to SAFETY go through layered protection.",
+        "items": [
+          {
+            "text": "Token-to-fiat conversion"
+          },
+          {
+            "text": "Live payment approval"
+          },
+          {
+            "text": "Wallet-based signing"
+          },
+          {
+            "text": "Device fingerprinting"
+          }
+        ]
+      },
+      "SAFETY Card Security": {
+        "title": "The SAFETY card is not just a payment tool",
+        "items": [
+          {
+            "text": "One-time CVV / Tokenized card numbers"
+          },
+          {
+            "text": "On/off toggle from the app"
+          },
+          {
+            "text": "Auto-lock on loss or thef"
+          },
+          {
+            "text": "Geo-restricted payments (GPS-based)"
+          }
+        ]
+      }
+    }
+  },
+
+  "Dashboard_2": {
+    "colored-text": "Mine. Stack. Redeem. Every task counts.",
+    "title": "Mine coins, stack points, and unlock rewards.",
+    "text-1": "Earn points through daily missions, referrals, and mining activity.",
+    "text-2": "Your actions, your rewards."
+  },
+
+  "Foundation": {
+    "colored-text": "Our Vision. Our Mission.",
+    "title": "SAFETY Foundation",
+    "text": "A real decentralized foundation — built to protect trust, security, and growth.We envision a Web3 ecosystem where safety isn’t a feature — it’s the foundation.",
+    "list_1": [
+      {
+        "subtitle": "Security-first Web3 infrastructure",
+        "subtext": "Provide protocols & tools that users can trust."
+      },
+      {
+        "subtitle": "Community-led governance",
+        "subtext": "Enable user-driven proposals and decentralized decision-making."
+      },
+      {
+        "subtitle": "Protect token utility and value",
+        "subtext": "Transparent, strategic distribution aligned with long-term growth."
+      },
+      {
+        "subtitle": "Lead partnerships & integrations",
+        "subtext": "Collaborate with key Web3 players and support cross-chain innovation."
+      }
+    ],
+    "subtitle": "Token Utility PhilosophyThe SAFETY Token isn’t just a reward — it’s a key to the ecosystem.",
+    "list_2": [
+      {
+        "subtitle": "Referral Reward Distribution",
+        "subtext": "Earn tokens by inviting new users and expanding the community"
+      },
+      {
+        "subtitle": "Governance Participation",
+        "subtext": "Use tokens to vote and shape ecosystem proposals"
+      },
+      {
+        "subtitle": "Integration with dApps",
+        "subtext": "Unlock exclusive partner dApp features"
+      },
+      {
+        "subtitle": "Access to Global Accounts",
+        "subtext": "Use SAFETY as a gateway to global digital identity & finance"
+      }
+    ],
+    "button": "Explore Tokenomics"
+  },
+  "KeyMetrics": {
+    "title": "Key Metrics",
+    "text": "Real-time data via API.",
+    "list": [
+      { "text": "Accounts Created" },
+      { "text": "SAFE Points Mined" },
+      { "text": "Token Holders" },
+      { "text": "Circulating Supply" }
+    ]
+  },
+  "Partners": {
+    "title": "Building trust through powerful alliances.",
+    "colored-text": "We grow the ecosystem — together.",
+    "text": "From blockchain infrastructure to DeFi innovators, SAFETY collaborates with trusted partners to scale our secure and user-driven ecosystem.",
+    "button": "Become a Partner"
+  },
+  "Footer": {
+    "left-text-1": "Security is not a feature. It's the foundation.",
+    "left-text-2": "Powered by trust. Built for the future.",
+    "platform": "Platform",
+    "dashboard": "Dashboard",
+    "mining": "Mining",
+    "rewards": "Rewards",
+    "referral": "Referral",
+    "explore": "Explore",
+    "overview": "Overview",
+    "dApp Integration": "dApp Integration",
+    "community": "Community",
+    "foundation": "Foundation",
+    "partners": "Partners",
+    "support": "Support",
+    "f&q": "F&Q",
+    "docs": "Docs",
+    "security": "Security Center",
+    "contact": "Contact us",
+    "bottom-text-1": "© 2025 SAFETY Foundation. All Rights Reserved.",
+    "bottom-text-2": "Join a new era of security-first digital freedom.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies Settings"
+  },
+
+  "GradientLines": {
+    "mainPage": {
+      "title": "Start mining safely today.",
+      "text": "Learn, earn, send. Right now, without borders.",
+      "button": ["Start Mining"]
+    },
+    "learn": {
+      "title": "Need more help?",
+      "text": "Have questions or need support? Use the links below to get assistance or explore more.",
+      "button": [
+        "Go to SAFETY Support",
+        "View Documentation",
+        "Submit a Suggestion"
+      ]
+    },
+    "foundation-co-create": {
+      "title": "SAFETY is more than a platform — it’s a Web3 ecosystem designed with you.",
+      "text": "Have questions or need support? Use the links below to get assistance or explore more.",
+      "button": [
+        "Send Feedback to SAFETY",
+        "View Integration Guide for Partners",
+        "Join the SAFETY Ecosystem"
+      ]
+    },
+    "mine&earn": {
+      "title": "Invite friends and double your rewards! SAFETY’s unique referral system.",
+      "button": [
+        "Start Mining Now",
+        "Share My Referral Link",
+        "Track My Network"
+      ]
+    },
+    "overview": {
+      "title": "SAFETY is more than a platform — it’s a Web3 ecosystem designed with you.",
+      "text": "Have questions or need support? Use the links below to get assistance or explore more.",
+      "button": [
+        "View SAFETY Proposal Hub",
+        "View Integration Guide for Partners",
+        "Join the SAFETY Ecosystem"
+      ]
+    }
+  },
+
+  "Faq": {
+    "title": "FAQs",
+    "text": "Quickly navigate our key technical resources",
+    "textMain": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+    "buttonMain": "See More Answers",
+    "menu0": "All",
+    "col1Title": "Platform Overview & Concept",
+    "col1question1": "What is SAFETY?",
+    "col1answer1": "SAFETY is a rewards platform centered around a dashboard, allowing users to mine points and swap them for Web3-based tokens.",
+    "col1question2": "Why was SAFETY created?",
+    "col1answer2": "It was developed to make blockchain reward structures easily accessible to everyone. Users can engage with Web3 using a point-based system without the need for complex wallets.",
+    "col1question3": "What is point mining?",
+    "col1answer3": "Within SAFETY, activities like logging in and referrals accumulate points, a process referred to as 'mining.'",
+    "col1question4": "Can these points be converted into money?",
+    "col1answer4": "Yes, under certain conditions, points can be swapped for SAFETY tokens, which may be listed on external exchanges in the future.",
+    "col1question5": "Is it based on blockchain?",
+    "col1answer5": "Yes, SAFETY operates on the BNB Chain, integrating Web3 functionalities. However, the points themselves are off-chain.",
+    "col1question6": "Can I use it without Web3 knowledge?",
+    "col1answer6": "Absolutely. SAFETY is designed for beginners to easily experience Web3.",
+    "col1question7": "Is the platform free?",
+    "col1answer7": "SAFETY is free to use. However, swapping may incur gas fees (BNB).",
+    "col1question8": "Is a wallet necessary?",
+    "col1answer8": "A wallet isn't required to accumulate points. However, to swap or transfer tokens, wallet connection is needed.",
+    "col1question9": "What is the SAFETY token?",
+    "col1answer9": "It's a utility token within the platform, exchangeable for mined points.",
+    "col1question10": "Is the platform limited to specific countries?",
+    "col1answer10": "No, SAFETY is a global platform with multilingual UI support.",
+    "col2Title": "Point Mining System",
+    "col2question1": "How do I mine points?",
+    "col2answer1": "Engage in activities like logging in, referrals, and using security features. Details are available at HOME > Safety Hub > Mine & Earn.",
+    "col2question2": "How many points can I mine daily?",
+    "col2answer2": "Daily mining limits depend on user activity and platform policies.",
+    "col2question3": "What are the benefits of registering a referrer?",
+    "col2answer3": "When your referrer joins or is active, a portion of their points is rewarded to you.",
+    "col2question4": "What is a second-level referral?",
+    "col2answer4": "If your referral brings in another user, you also earn points from that second-level activity.",
+    "col2question5": "Do points reset or expire?",
+    "col2answer5": "Points may be put on hold after periods of inactivity and can expire based on platform policies if not swapped.",
+    "col2question6": "Do mining rewards decrease over time?",
+    "col2answer6": "Yes, there's a deflationary design where rewards gradually decrease.",
+    "col2question7": "How is fraudulent mining prevented?",
+    "col2answer7": "SAFETY employs AI-based behavior detection and referral abuse prevention algorithms.",
+    "col2question8": "Where can I view my mining stats?",
+    "col2answer8": "Check the Mining tab on the SAFETY dashboard for your stats, cumulative rewards, and daily mining status.",
+    "col2question9": "Why am I receiving fewer mining rewards?",
+    "col2answer9": "It could be due to inactive referrals or being in a phase where point rewards are decreasing.",
+    "col2question10": "Can I register spam referrals?",
+    "col2answer10": "Fraudulent referrals are detected, leading to point denial and potential account restrictions.",
+    "col3Title": "Swap & Token Information",
+    "col3question1": "How do I convert points to SAFETY tokens?",
+    "col3answer1": "Click the 'Swap' button on the dashboard, connect your wallet, and proceed with the conversion.",
+    "col3question2": "Where do swapped tokens go?",
+    "col3answer2": "They are sent to your connected personal wallet (e.g., Metamask).",
+    "col3question3": "Are there fees for token swaps?",
+    "col3answer3": "Currently, there's no platform fee, but BNB Chain gas fees apply.",
+    "col3question4": "Can I swap tokens without BNB?",
+    "col3answer4": "No, a small amount of BNB or the respective coin's gas fee is required. You can purchase BNB via services like MoonPay.",
+    "col3question5": "Is the SAFETY token listed on exchanges?",
+    "col3answer5": "It's primarily for internal use now, with plans for future exchange listings.",
+    "col3question6": "Can I reverse a token swap?",
+    "col3answer6": "No, once swapped, tokens cannot be reverted.",
+    "col3question7": "How is the SAFETY token price determined?",
+    "col3answer7": "It's based on internal algorithms and external liquidity pools.",
+    "col3question8": "Where can I use swapped tokens?",
+    "col3answer8": "They will be usable across various services within the SAFETY ecosystem.",
+    "col3question9": "Can I swap for other cryptocurrencies?",
+    "col3answer9": "Currently, only SAFETY swaps are available, but expansions to BNB, USDT, etc., are under consideration.",
+    "col3question10": "My tokens disappeared. What should I do?",
+    "col3answer10": "First, check your wallet address and transaction history. If issues persist, contact customer support.",
+    "col4Title": "Wallet Connection & Security",
+    "col4question1": "Which wallets can I connect?",
+    "col4answer1": "You can connect wallets like Metamask, Trust Wallet, and those using WalletConnect.",
+    "col4question2": "Can I use SAFETY without a wallet?",
+    "col4answer2": "Yes, for mining and point accumulation. However, wallet connection is needed for token swaps.",
+    "col4question3": "I'm unable to connect my wallet. What should I do?",
+    "col4answer3": "Ensure your browser extension is installed and network settings are correct.",
+    "col4question4": "Can I connect multiple wallets?",
+    "col4answer4": "It's recommended to connect one wallet per account.",
+    "col4question5": "How do I change my connected wallet?",
+    "col4answer5": "Disconnect the current wallet and connect a new one. Keep your mnemonic phrase secure.",
+    "col4question6": "Where can I find my wallet address?",
+    "col4answer6": "It's available in the Wallet tab on the dashboard.",
+    "col4question7": "Does SAFETY store my wallet information?",
+    "col4answer7": "No, only the wallet address is used for identification; private keys are never collected.",
+    "col4question8": "Is token swapping secure?",
+    "col4answer8": "Yes, it's handled securely using Web3 standard protocols and OpenZeppelin-based smart contracts.",
+    "col4question9": "Is there a risk of hacking on SAFETY?",
+    "col4answer9": "Internal activities are off-chain, reducing security threats. Web3 features use verified smart contracts.",
+    "col4question10": "I see unfamiliar transactions in my wallet.",
+    "col4answer10": "These might be external threats. Disconnect any suspicious DApps from your wallet.",
+    "col5Title": "Account, Settings, & Operations",
+    "col5question1": "How do I create an account?",
+    "col5answer1": "You can log in using your email or wallet for a quick start.",
+    "col5question2": "Why don't I have a password?",
+    "col5answer2": "Login is based on wallet authentication or email OTP.",
+    "col5question3": "How do I delete my account?",
+    "col5answer3": "You can request account deletion in the settings page; it will be permanently removed after a certain period.",
+    "col5question4": "Where can I view my point history?",
+    "col5answer4": "Check your cumulative history in My Page or the dashboard.",
+    "col5question5": "Why am I not receiving notifications?",
+    "col5answer5": "Ensure your browser and email notification settings are enabled.",
+    "col5question6": "Who operates SAFETY?",
+    "col5answer6": "It's managed by a global Web3 community-based team.",
+    "col5question7": "How can I contact customer support?",
+    "col5answer7": "Email support@safety.io or use the channels at the bottom of the homepage.",
+    "col5question8": "Is the platform available in other languages?",
+    "col5answer8": "Multilingual support is available through a translation widget, currently focusing on English.",
+    "col5question9": "The platform is slow. Why?",
+    "col5answer9": "Server congestion can cause delays; improvements are ongoing.",
+    "col5question10": "Why should I continue using SAFETY?",
+    "col5answer10": "The platform offers a virtuous cycle of mining, swapping, and rewards, enhancing benefits with increased usage and expanding applications.",
+    "col6Title": "User Experience & Troubleshooting",
+    "col6question1": "Why does my login session expire frequently?",
+    "col6answer1": "It could be due to session timeouts or browser cookie settings. Please check your settings.",
+    "col6question2": "I swapped tokens, but they don't appear in my wallet.",
+    "col6answer2": "Ensure the SAFETY token address is added to your wallet (e.g., Metamask).",
+    "col6question3": "Where can I buy BNB?",
+    "col6answer3": "BNB can be purchased through services like MoonPay, Binance, or TrustWallet.",
+    "col6question4": "Why are gas fees high?",
+    "col6answer4": "Gas fees vary based on BNB network conditions; avoiding peak times can help.",
+    "col6question5": "The token price fluctuated significantly. Why?",
+    "col6answer5": "SAFETY token prices are based on liquidity pools and reflect real-time user activity and demand.",
+    "col6question6": "Will I lose my referral rewards if my referrer deletes their account?",
+    "col6answer6": "No, points accumulated at the time of referral activity remain valid.",
+    "col6question7": "My referrer isn't active. Why am I not receiving rewards?",
+    "col6answer7": "Referral rewards are activity-based. If your referrer isn't mining, no points are generated for you.",
+    "col6question8": "Where can I find my referral link?",
+    "col6answer8": "You can find it in Dashboard > My Page > Referral tab.",
+    "col6question9": "I'm not receiving points. Why?",
+    "col6answer9": "Some activities have specific conditions or daily limits. Please review the mining conditions.",
+    "col6question10": "What is the daily mining limit?",
+    "col6answer10": "It may vary depending on platform policy. Refer to the limit displayed on your dashboard.",
+    "col6question11": "Can I create multiple accounts on the same device?",
+    "col6answer11": "Multiple accounts are generally not allowed and may be restricted by the system's detection.",
+    "col6question12": "The website keeps showing errors.",
+    "col6answer12": "Try clearing your browser cache or contact customer support for assistance.",
+    "col6question13": "My points suddenly decreased.",
+    "col6answer13": "During platform maintenance, fraudulently accumulated points may be adjusted retroactively. Relevant notices will be provided.",
+    "col6question14": "I completed a swap, but the tokens haven't arrived.",
+    "col6answer14": "It could be a transaction delay. Check the TX hash in your wallet. If it still doesn't arrive, contact support.",
+    "col6question15": "Who issued the SAFETY tokens I received?",
+    "col6answer15": "They are officially issued by the SAFETY Foundation and are automatically transferred via smart contract.",
+    "col7Title": "Technical Questions",
+    "col7question1": "What blockchain does SAFETY use?",
+    "col7answer1": "SAFETY is built on the Binance Smart Chain (BNB Chain).",
+    "col7question2": "Why did you choose the BNB Chain?",
+    "col7answer2": "It offers low gas fees, high compatibility with Web3 wallets, strong accessibility, and reliability.",
+    "col7question3": "Where can I find the token contract address?",
+    "col7answer3": "On the official website or under the 'Token Info' section in your wallet.",
+    "col7question4": "Is the contract open source?",
+    "col7answer4": "Yes, the smart contract is made public for transparency.",
+    "col7question5": "Has the contract been audited?",
+    "col7answer5": "SAFETY is undergoing security audits in partnership with certified audit firms.",
+    "col7question6": "Is SAFETY a DApp?",
+    "col7answer6": "It's a hybrid platform with partial Web3 features. The core mining logic is off-chain.",
+    "col7question7": "Can I interact directly with the smart contract?",
+    "col7answer7": "Technically yes, but it's not recommended. Please use the in-platform UI for secure use.",
+    "col7question8": "How is token circulation and supply managed?",
+    "col7answer8": "SAFETY tokens have a capped supply and are gradually distributed through mining and swaps. (Total Supply: 4,000,000,000)",
+    "col7question9": "Are APIs available for integration?",
+    "col7answer9": "Limited APIs are available to partner organizations. Please contact us for partnership inquiries.",
+    "col7question10": "What kind of signature is required when connecting a wallet?",
+    "col7answer10": "Only message signatures for login authentication are requested. Token transfers require manual user confirmation.",
+    "col7question11": "Why is there no KYC?",
+    "col7answer11": "SAFETY follows the Web3 philosophy of decentralized login. KYC is optional.",
+    "col7question12": "Does SAFETY store my transaction history?",
+    "col7answer12": "No. SAFETY does not store user transactions. They are visible directly on your wallet.",
+    "col7question13": "Do you support browser extensions?",
+    "col7answer13": "The platform is web-based, but Chrome extensions are being considered.",
+    "col7question14": "Can I use SAFETY on mobile?",
+    "col7answer14": "Yes, it's fully responsive and mobile-friendly. A mobile app version is in development.",
+    "col7question15": "Can the token be used like an NFT?",
+    "col7answer15": "Currently, SAFETY is a utility token, but future reward models may include NFT integrations.",
+    "col8Title": "Investor & Partnership Questions",
+    "col8question1": "Who developed this project?",
+    "col8answer1": "SAFETY was developed by a team of Web3 developers, security experts, and UX designers.",
+    "col8question2": "Who are the existing investors?",
+    "col8answer2": "Primarily individual early supporters and SAFETY token holders.",
+    "col8question3": "What rights do investors have?",
+    "col8answer3": "Investors may receive airdrop rewards, priority access to ecosystem features, and partnership benefits.",
+    "col8question4": "Is the foundation a real entity?",
+    "col8answer4": "Yes, SAFETY Foundation is a registered legal entity that oversees platform development and governance.",
+    "col8question5": "How can we propose a partnership?",
+    "col8answer5": "Contact us at contact@safety.io or via the official website.",
+    "col8question6": "Do you offer branded collaborations or reward-based advertising?",
+    "col8answer6": "Yes, we support various formats like Learn & Earn and mining-based banners for promotional partnerships.",
+    "col8question7": "Can I purchase tokens in advance?",
+    "col8answer7": "Yes. Private pre-sale options are under consideration. Please reach out to discuss further.",
+    "col8question8": "What's the legal structure?",
+    "col8answer8": "SAFETY is preparing for international incorporation, targeting blockchain-friendly jurisdictions like Singapore or Indonesia.",
+    "col8question9": "What are the conditions for joining airdrops?",
+    "col8answer9": "Basic activities like signing up, mining, and connecting a wallet make you eligible for airdrops.",
+    "col8question10": "Can partner logos be shown on the SAFETY site?",
+    "col8answer10": "Yes, following mutual agreement, logos can be displayed in the partner section.",
+    "col9Title": "Future Plans & Roadmap",
+    "col9question1": "How will SAFETY expand in the future?",
+    "col9answer1": "From mining → swapping → utility in a mainnet ecosystem. Expansion includes a marketplace, NFTs, and partner services.",
+    "col9question2": "Does the platform have a revenue model?",
+    "col9answer2": "Yes. Revenue may come from swap/transfer fees, branded partnerships, and API integrations.",
+    "col9question3": "What does the SAFETY ecosystem include?",
+    "col9answer3": "Internal services that use SAFETY tokens, partner content, and DAO participation structures.",
+    "col9question4": "Will it be governed as a DAO?",
+    "col9answer4": "A user-driven governance model is planned for the future.",
+    "col9question5": "Will SAFETY integrate NFTs?",
+    "col9answer5": "Yes, NFT-based reward models and dividend-type NFTs are under review.",
+    "col9question6": "Can SAFETY tokens be staked?",
+    "col9answer6": "Staking functionality is planned for the second phase of the roadmap.",
+    "col9question7": "Can crypto beginners understand Web3 through SAFETY?",
+    "col9answer7": "Absolutely. SAFETY is built with a beginner-friendly UX and integrated tutorials.",
+    "col9question8": "Why should I keep using SAFETY long-term?",
+    "col9answer8": "The more you participate, the higher your rewards. Contribution to the ecosystem also boosts your benefits.",
+    "col9question9": "How big is the SAFETY team?",
+    "col9answer9": "It's a small team with design, frontend, backend, and operations roles, plus external partners and collaborators.",
+    "col9question10": "What is SAFETY's long-term vision?",
+    "col9answer10": "SAFETY aims to become the global standard for Web3 reward platforms and expand into a global DAO ecosystem."
+  },
+
+  "foundation-co-create": {
+    "heroSec": {
+      "title": ["Everyone is a Builder", "of SAFETY"],
+      "text": [
+        "Build. Share. Grow. Together.",
+        "SAFETY is an open Web3 ecosystem where anyone can contribute. Users and developers are no longer separated — we design, operate, and earn together"
+      ]
+    },
+    "rows": {
+      "title": "Security, Transparency, and an Ecosystem for You.",
+      "text": "SAFETY is a Web3 security ecosystem connecting encryption, mining, and real-time participation rewards.",
+      "list": [
+        {
+          "subtitle": "Mission",
+          "subtext": "Create an ecosystem where anyone can contribute to security and earn from it."
+        },
+        {
+          "subtitle": "Principle 1",
+          "subtext": "Transparent, action-based rewards — your behavior generates value."
+        },
+        {
+          "subtitle": "Principle 2",
+          "subtext": "A coin connects to the world only when it’s used."
+        },
+        {
+          "subtitle": "Principle 3",
+          "subtext": "Community-first philosophy — “Contribution equals authority.”"
+        }
+      ]
+    },
+    "team": {
+      "title": "Advisors & Team",
+      "members": [
+        {
+          "name": "Evan Yeu",
+          "position": "Project Lead",
+          "text": "Visionary leader driving the SAFETY platform from concept to execution. Oversees cross-functional coordination, product direction, and long-term ecosystem growth."
+        },
+        {
+          "name": "Mutegeki Ronald",
+          "position": "Chief Technology Officer (CTO)",
+          "text": "Responsible for SAFETY's technical architecture. Leads smart contract development, blockchain integration, and security protocols across the platform."
+        },
+        {
+          "name": "Muller Alexandre",
+          "position": "Head of Marketing",
+          "text": "Leads global marketing strategy and brand positioning for SAFETY. Focused on community growth, partnerships, and user acquisition in the Web3 ecosystem."
+        }
+      ],
+      "list": [
+        {
+          "subtitle": "Vision",
+          "subtext": "Democratize security, normalize blockchain in everyday life."
+        },
+        {
+          "subtitle": "Team",
+          "subtext": "Blockchain experts, security engineers, UI/UX designers, community strategists."
+        },
+        {
+          "subtitle": "Locations",
+          "subtext": "Indonesia, Singapore, Thailand, Korea, Japan — globally distributed remote team."
+        },
+        {
+          "subtitle": "Values",
+          "subtext": "User-centered, transparent operations, non-authoritative leadership."
+        }
+      ]
+    },
+    "Partners": {
+      "title": "From Web3 Tools to Global Institutions – SAFETY is built to connect.",
+      "text": "SAFETY is not just a digital token — it’s a modular Web3 platform that integrates with wallets, dApps, chains, and tools."
+    },
+    "Tokenomics": {
+      "title": "Tokenomics",
+      "modals": [
+        {
+          "title": "Point Swap (SafeP Mining)",
+          "modalText": "For swapping mined SafeP points and expanding SAFETY’s reach",
+          "safety": "1.2 billion SAFETY"
+        },
+        {
+          "title": "Public Sale (ICO, IDO)",
+          "modalText": "For public investors",
+          "safety": "800 million SAFETY"
+        },
+        {
+          "title": "Exchange Liquidity (CEX & DEX)",
+          "modalText": "For  liquidity  provisioning on exchanges",
+          "safety": "400 million SAFETY"
+        },
+        {
+          "title": "Marketing",
+          "modalText": "Used for listings, ecosystem expansion, and promotional activities",
+          "safety": "400 million SAFETY"
+        },
+        {
+          "title": "Burn (Buyback / Burn Pool)",
+          "modalText": "To be removed from circulation; SAFETY reclaimed from liquidity sources",
+          "safety": "400 milliom SAFETY"
+        },
+        {
+          "title": "Safety Team",
+          "modalText": "Allocated to the core SAFETY development team",
+          "safety": "280 million SAFETY"
+        },
+        {
+          "title": "Business Partners",
+          "modalText": "Strategic partnerships to expand SAFETY platform adoption and distribution",
+          "safety": "140 million SAFETY"
+        },
+        {
+          "title": "Presale",
+          "modalText": "Private/early sale to seed supporters",
+          "safety": "120 million SAFETY"
+        },
+        {
+          "title": "Advisor",
+          "modalText": "For ecosystem advisors, strategic planning, and growth consulting",
+          "safety": "80 million SAFETY"
+        },
+        {
+          "title": "Reserve",
+          "modalText": "Held as liquidity reserve",
+          "safety": " 80 million SAFETY"
+        },
+        {
+          "title": "Global Contribution",
+          "modalText": "For social and global public contribution",
+          "safety": "100 million SAFETY"
+        }
+      ]
+    }
+  },
+
+  "Learn": {
+    "heroTitle1": "Everything to learn.",
+    "heroTitle2": "All in one place.",
+    "text1Hero": "From technical documentation to frequently asked questions, this is your go-to space to understand SAFETY. Quickly and clearly explore how SAFETY works and how to use it.",
+    "text2Hero": "Know it. Build it. Use it. Users who understand SAFETY well become the best contributors.",
+    "secondSecTitle": "Access",
+    "secondSecText": "Quickly navigate our key technical resources",
+    "linkText": "View",
+    "secondSecList": [
+      {
+        "title": "Whitepaper",
+        "text": "SAFETY project overview & tokenomics."
+      },
+
+      {
+        "title": "Design System",
+        "text": "Logo, color palette, and UI components."
+      },
+
+      {
+        "title": "Platform Guide",
+        "text": "Complete platform usage manual."
+      },
+
+      {
+        "title": "API Docs",
+        "text": "Developer API integration guides."
+      },
+
+      {
+        "title": "GitHub Repo",
+        "text": "Open source repo for SAFETY."
+      }
+    ],
+
+    "thirdSecTitle": "Clear documentation is the foundation of every great product",
+    "thirdSecText": "SAFETY runs on technology and trust. Everything from whitepapers to APIs and architecture is transparently available.",
+    "thirdSecList": [
+      {
+        "title": "Whitepaper",
+        "text": "SAFETY project overview & tokenomics."
+      },
+
+      {
+        "title": "Tokenomics & Ultility",
+        "text": "Complete platform usage manual."
+      },
+
+      {
+        "title": "Wallet Architecture",
+        "text": "Complete platform usage manual."
+      },
+
+      {
+        "title": "Mining & Reward Systems",
+        "text": "Complete platform usage manual."
+      },
+
+      {
+        "title": "Swap & Presale Logic",
+        "text": "Developer API integration guides."
+      },
+
+      {
+        "title": "API Integration (Trigger/Action/Data)",
+        "text": "Logo, color palette, and UI components."
+      },
+
+      {
+        "title": "Design System",
+        "text": "Logo, color palette, and UI components."
+      },
+
+      {
+        "title": "GitHub Open-Source Code",
+        "text": "Open source repo for SAFETY"
+      }
+    ]
+  },
+
+  "mine-earn": {
+    "titleHero": "What is Mining on Safety?",
+    "textHero": "Understand the power of decentralized mining and how you benefit.",
+    "secondTitle": "We transparently reveal the core principles and reward structure behind SafeP mining.",
+    "secondList": [
+      "Mining on SAFETY is based on performing simple web-based security actions and daily triggers. Users earn SafeP, which can be converted into SAFETY tokens and used throughout the ecosystem.",
+      "No hardware or computing power required -mining starts with just your smartphone.Users can participate in mining by engaging in app activities or inviting others.",
+      "This is not just passive reward distribution - it’s a structure that compensates actual network contribution."
+    ],
+
+    "thirdTitle": "Everyone is a Builder of SAFETY",
+    "thirdText1": "Users can earn 10 points daily just by logging in and clicking the mining button. When your referrals mine, you receive 5 extra points per person.",
+    "thirdText2": "Invite someone directly? You get 20 points. If they invite others, you get 5 points more — up to 1000 per day. More network, more rewards.",
+    "thirdList": [
+      {
+        "upperText": "Once per day",
+        "title": "Mining Button Click",
+        "subtext": "Base daily mining trigger",
+        "points": "+10 "
+      },
+
+      {
+        "upperText": "Each time they mine",
+        "title": "Referral Mines",
+        "subtext": "You earn for their activity",
+        "points": "+5 "
+      },
+
+      {
+        "upperText": "On sign-up",
+        "title": "Direct Referral",
+        "subtext": "1st-level invite reward",
+        "points": "+20 "
+      },
+
+      {
+        "upperText": "On sign-up",
+        "title": "Indirect Referral",
+        "subtext": "2nd-level reward",
+        "points": "+5"
+      },
+
+      {
+        "upperText": "Daily max",
+        "title": "Reward Cap",
+        "subtext": "Limits for referral-based mining",
+        "points": "1000"
+      }
+    ],
+
+    "fourthTitle": "A mining guide for beginners — anyone can get started",
+    "fourthList": [
+      {
+        "title": "Step 1. Log in and Start Mining",
+        "text": "Log in easily with your email or wallet. Your dashboard will open, and mining begins automatically."
+      },
+
+      {
+        "title": "Step 2. Invite Friends and Earn Together",
+        "text": "Share your referral link and earn bonus SafeP whenever your friends mine. Even second-level referrals (your friend's friends) generate rewards."
+      },
+
+      {
+        "title": "Step 3. Convert SafeP to SAFETY Tokens",
+        "text": "Convert your earned SafeP into SAFETY tokens. Use them across the Web3 ecosystem, or simply hold and grow your assets."
+      }
+    ],
+
+    "fourthButton": "Start Mining"
+  },
+
+  "overview": {
+    "heroSec": {
+      "title": "Protect, Earn, and Empower.",
+      "text-1": "SAFETY empowers anyone to participate in Web3 security and get rewarded.",
+      "text-2": "SAFETY is designed to make Web3 security accessible for all,and to build a new cycle of value through action-based rewards."
+    },
+    "coloredText": {
+      "text-1": "Protect. Earn. Repeat.",
+      "title": "A secure ecosystem where your actions become value.",
+      "text-2": "We live in an era where security is no longer exclusive to experts.  Anyone should be able to contribute to the network through their smartphone — and that contribution should be rewarded.",
+      "text-3": "SAFETY bridges this gap as a decentralized security platform."
+    },
+    "dashboard": {
+      "title": "How your actions become Web3 assets?",
+      "text-1": "SAFETY follows a clear structure: ",
+      "text-2": "Mining → Points → SAFETY Token → Multi-purpose utility.",
+      "text-3": "Action is a new asset."
+    },
+    "keyFunctions": {
+      "title": "Key Functions",
+      "list": [
+        {
+          "title": "Mining",
+          "text": "Earn points through daily mining — click to participate"
+        },
+        {
+          "title": "Swap",
+          "text": "Seamless exchange between SAFE and SAFETY"
+        },
+        {
+          "title": "Wallet",
+          "text": "View assets, connect wallet, use points"
+        },
+        {
+          "title": "Referral",
+          "text": "Expand rewards through 2-tier invitation structure"
+        },
+        {
+          "title": "Airdrop",
+          "text": "Receive SAFETY through participation"
+        },
+        {
+          "title": "Global Account",
+          "text": "Connect SAFETY tokens to global accounts and use in real-world finance."
+        }
+      ]
+    },
+    "tokenUtility": {
+      "title": "SAFETY Token Utility",
+      "text-1": "SAFETY functions as the currency of the entire ecosystem.",
+      "text-2": "The SAFETY token is used across various economic activities beyond just swapping.",
+      "list": [
+        {
+          "title": "Swap",
+          "text": "Exchange between SAFE and SAFETY."
+        },
+        {
+          "title": "DEX",
+          "text": "PancakeSwap and other BNB-based platforms."
+        },
+        {
+          "title": "Airdrop",
+          "text": "Additional tier-based rewards."
+        },
+        {
+          "title": "Voting",
+          "text": "Community governance."
+        },
+        {
+          "title": "Global Account",
+          "text": "Integration with global bank accounts and card issuance."
+        }
+      ]
+    },
+    "earningOpportunities": {
+      "text-1": "Your actions become assets.",
+      "title": "Earning Opportunities",
+      "text-2": "Explore every possible way to earn rewards in the SAFETY ecosystem.",
+      "list": [
+        {
+          "subtitle": "Mining",
+          "subtext": "Earn points via daily click and referral mining."
+        },
+        {
+          "subtitle": "Referral",
+          "subtext": "1st level: 20pt / 2nd level: 5pt / Max 1000pt per day."
+        },
+        {
+          "subtitle": "Missions",
+          "subtext": "Daily quests and event challenges."
+        },
+        {
+          "subtitle": "Airdrop",
+          "subtext": "Tier-based participation rewards."
+        },
+        {
+          "subtitle": "Presale",
+          "subtext": "Early access to token sales."
+        },
+        {
+          "subtitle": "Community",
+          "subtext": "Rewards for AMA, proposals, voting participation."
+        }
+      ],
+      "subtitle": "Security Framework",
+      "list-2": [
+        { "subtitle": "Non-custodial wallet" },
+        { "subtitle": "Encrypted messaging & decryption authentication" },
+        { "subtitle": "VoIP blocking / stealth mode (planned)" },
+        { "subtitle": "Global account linking and secure card issuance" }
+      ],
+      "subtext": "Built on BNB. Secured by design."
+    },
+    "partners": {
+      "title": "Web3 Expansion & Partnerships",
+      "text": "SAFETY is fully extendable to the broader Web3 ecosystem — through dApp integration, API access, and global finance utilities."
+    },
+    "roadmap": {
+      "title": "Roadmap & Expansion",
+      "list": [
+        {
+          "title": "2025 Q2",
+          "text": "DEX listing, token sale end"
+        },
+        {
+          "title": "2025 Q3",
+          "text": "Global account integration begins"
+        },
+        {
+          "title": "2025 Q4",
+          "text": "DAO voting system launch"
+        },
+        {
+          "title": "2026 Q1",
+          "text": "Expanded dApp partnerships"
+        },
+        {
+          "title": "2026 Q2",
+          "text": "SAFE Academy 2.0 launch"
+        }
+      ]
+    }
+  }
+}

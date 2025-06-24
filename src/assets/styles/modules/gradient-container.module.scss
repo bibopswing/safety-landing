@@ -1,0 +1,116 @@
+.card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0.8rem 2.6rem 0.8rem 0.8rem;
+  display: flex;
+  gap: 6rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.01),
+      rgba(255, 255, 255, 0.01)
+    ),
+    radial-gradient(
+      63.94% 63.94% at 50% 0%,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+  // background: linear-gradient(
+  //   45deg,
+  //   rgba(255, 255, 255, 0.01),
+  //   rgba(255, 255, 255, 0.01)
+  // ),
+  // radial-gradient(
+  //   circle at top left,
+  //   rgba(255, 255, 255, 0.12) 0%,
+  //   rgba(255, 255, 255, 0) 100%
+  // );
+
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;  
+  border-radius: inherit;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) -7.33%,
+    rgba(255, 255, 255, 0) 74.04%
+  );
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+.button {
+  padding: 2rem;
+  background-color: rgba(15, 15, 16, 1);
+  transition: all 0.5s;
+  // border-radius: 1rem;
+  white-space: nowrap;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__active {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  // justify-content: space-around;
+  gap: 2rem;
+
+  & ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+  }
+}
+
+.grid {
+ 
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+   
+}
+
+.fadeIn {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fadeOut {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
