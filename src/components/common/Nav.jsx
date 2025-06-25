@@ -92,6 +92,7 @@ export default function Nav({ isMobile, onMenuClick, menuActive }) {
             className="  lg:mt-0 w-full lg:w-auto"
             onClick={() => onMenuClick()}
             text={t(data.button.text)}
+            href="https://app.sftyhub.com/"
           />
         </div>
       </>
