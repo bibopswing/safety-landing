@@ -48,7 +48,7 @@ export default function Footer() {
                       {!href ? (
                         <h5>{t(text)}</h5>
                       ) : (
-                        <Link href={href}>{t(text)}</Link>
+                        <a href={href}>{t(text)}</a>
                       )}
                     </React.Fragment>
                   ))}

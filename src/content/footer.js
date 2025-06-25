@@ -35,19 +35,19 @@ export const footer = {
       },
       {
         text: "dashboard",
-        href: "/dashboard",
+        href: "https://app.sftyhub.com/",
       },
       {
         text: "mining",
-        href: "/mining",
+        href: "https://app.sftyhub.com/",
       },
       {
         text: "rewards",
-        href: "/rewards",
+        href: "https://app.sftyhub.com/",
       },
       {
         text: "referral",
-        href: "/referral",
+        href: "https://app.sftyhub.com/",
       },
     ],
     [

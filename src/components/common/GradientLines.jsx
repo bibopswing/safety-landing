@@ -29,6 +29,7 @@ export default function GradientLines({ title, text, buttons }) {
                   className={"w-full lg:w-auto"}
                   arrow={buttons.length === 1 ? true : false}
                   transparent={index >= 1 && true}
+                  href="https://app.sftyhub.com/"
                 />
               ))}
             </div>
