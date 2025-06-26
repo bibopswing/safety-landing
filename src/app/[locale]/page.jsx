@@ -1,3 +1,4 @@
+'use client'
 import HeroSec from "../../components/main-page/HeroSec";
 import Dashboard from "../../components/main-page/Dashboard";
 import NewValue from "../../components/main-page/NewValue";
@@ -10,10 +11,14 @@ import Faq from "../../components/common/Faq";
 import GradientLines from "../../components/common/GradientLines";
 
 import { useTranslations } from "next-intl";
+import { useSelector } from "react-redux";
 
 export default function Home() {
   const t = useTranslations("GradientLines.mainPage");
   const t2 = useTranslations("Partners");
+
+  const {isLoding} =useSelector((state)=>state.dashboard)
+  console.log(isLoding,'isLoding')
 
   return (
     <>
