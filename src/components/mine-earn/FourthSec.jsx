@@ -49,7 +49,7 @@ export default function FourthSec() {
         ))}
       </div>
    
-        <Button className={"w-full lg:w-auto"} text={t(mine.fourthButton)} arrow={true}/>
+        <Button href='https://app.sftyhub.com/' className={"w-full lg:w-auto"} text={t(mine.fourthButton)} arrow={true}/>
     </Container>
         </FadeIn>
   );

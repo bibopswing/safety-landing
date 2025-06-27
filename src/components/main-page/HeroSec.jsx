@@ -184,7 +184,7 @@ export default function HeroSec() {
                 showButton ? "opacity-100" : "opacity-0"
               }`}
             >
-              <Button arrow text={"Get Started"} />
+              <Button href='https://app.sftyhub.com/' arrow text={"Get Started"} />
             </div>
           </div>
         </div>
