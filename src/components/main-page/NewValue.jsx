@@ -5,10 +5,33 @@ import Lottie from "lottie-react";
 import Container from "../common/Container";
 import FadeIn from "../common/FadeIn";
 import { newValue } from "../../content/main-page/new-value";
+import { useRef } from "react";
 
 export default function NewValue() {
   const t = useTranslations("NewValue");
   const data = newValue;
+  const lottieRef1 = useRef(null);
+  const lottieRef2 = useRef(null);
+  const lottieRef3 = useRef(null);
+
+  const handleComplete = () => {
+    lottieRef1.current?.playSegments([60, 180], true);
+    lottieRef2.current?.playSegments([60, 180], true);
+    lottieRef3.current?.playSegments([60, 180], true);
+  };
+
+  const getLottieRef = (index) => {
+    switch (index) {
+      case 0:
+        return lottieRef1;
+      case 1:
+        return lottieRef2;
+      case 2:
+        return lottieRef3;
+      default:
+        return lottieRef1;
+    }
+  };
 
   return (
     <Container>
@@ -33,7 +56,13 @@ export default function NewValue() {
                 <p className="grey">{t(item.text)}</p>
               </div>
               <div className="lg:w-[50%]">
-                <Lottie animationData={item.img} loop={true} autoplay={true} />
+                <Lottie 
+                 lottieRef={getLottieRef(key)}
+                 animationData={item.img} 
+                 loop={false} 
+                 autoplay={true} 
+                 onComplete={handleComplete}
+                />
               </div>
             </div>
           </FadeIn>
