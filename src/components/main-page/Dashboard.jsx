@@ -13,7 +13,7 @@ export default function Dashboard(params) {
         </FadeIn>
         <FadeIn start="top 80%" className="inline-flex justify-center">
           <Image
-            className="translate-y-[-10%] w-full sm:w-[85%] h-auto"
+            className="translate-y-[-10%] w-full sm:w-[85%]"
             src={dashboard}
             alt="dashboard"
           />
