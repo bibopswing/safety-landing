@@ -37,12 +37,12 @@ export default function EarningOpportunities() {
         </div>
       </div>
       <FadeIn isReverse={true}>
-        <div className="w-full my-[5rem]">
+        <div className="w-full my-[5rem] inline-flex justify-center">
           <Lottie
             animationData={lottieData}
             loop={true}
             autoplay={true}
-            style={{ width: "100%" }}
+            className="w-full sm:w-[85%] h-auto"
             rendererSettings={{
               preserveAspectRatio: "xMidYMid slice",
             }}

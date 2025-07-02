@@ -22,12 +22,12 @@ export default function Dashboard() {
       </FadeIn>
       <FadeIn isReverse={true}>
         <div className="flex flex-col gap-[1rem] mt-[2.5rem]">
-          <div className="w-full">
+          <div className="w-full inline-flex justify-center">
             <Lottie
               animationData={lottieData}
               loop={true}
               autoplay={true}
-              style={{ width: "100%" }}
+              className="w-full sm:w-[85%] h-auto"
             />
           </div>
           <p className="grey text-center text-[0.9rem]">{t("text-3")}</p>

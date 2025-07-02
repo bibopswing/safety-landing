@@ -20,13 +20,12 @@ export default function Dashboard_2() {
         </div>
       </FadeIn>
       <FadeIn start="top 80%">
-        <div className="w-full mt-[1rem]">
+        <div className="w-full mt-[1rem] inline-flex justify-center">
           <Lottie
             animationData={img}
-            loop={false}
+            loop={true}
             autoplay={true}
-            style={{ width: "100%" }}
-            onComplete={() => {}}
+            className="w-full sm:w-[85%] h-auto"
           />
         </div>
       </FadeIn>

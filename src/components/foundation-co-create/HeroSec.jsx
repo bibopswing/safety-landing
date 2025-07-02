@@ -36,13 +36,13 @@ export default function HeroSec() {
           ))}
         </div>
       </div>
-      <div className="w-full h-auto mt-[5rem]">
+      <div className="w-full h-auto mt-[5rem] inline-flex justify-center">
         <Lottie
           lottieRef={lottieRef}
           animationData={lottieData}
           loop={false}
           autoplay={true}
-          style={{ width: "100%", height: "auto" }}
+          className="w-full sm:w-[85%] h-auto"
           onComplete={handleComplete}
         />
       </div>
