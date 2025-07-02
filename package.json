@@ -2,12 +2,12 @@
   "name": "app-fo",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "cross-env PORT=3033 next dev",
+  "build": "next build",
+  "start": "next start -p 3033",
+  "lint": "next lint"
+},
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.10.0",
