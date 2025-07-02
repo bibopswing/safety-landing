@@ -1,6 +1,6 @@
-import gif_1 from "../../assets/images/main-page/new-value/gif-1.gif";
-import gif_2 from "../../assets/images/main-page/new-value/gif-2.gif";
-import gif_3 from "../../assets/images/main-page/new-value/gif-3.gif";
+import ani_1 from "../../assets/images/main-page/new-value/1.json";
+import ani_2 from "../../assets/images/main-page/new-value/2.json";
+import ani_3 from "../../assets/images/main-page/new-value/3.json";
 
 export const newValue = {
   title_1: "title-1",
@@ -11,17 +11,17 @@ export const newValue = {
     {
       title: "list-title-1",
       text: "list-text-1",
-      img: gif_2,
+      img: ani_1,
     },
     {
       title: "list-title-2",
       text: "list-text-2",
-      img: gif_1,
+      img: ani_2,
     },
     {
       title: "list-title-3",
       text: "list-text-3",
-      img: gif_3,
+      img: ani_3,
     },
   ],
 };

@@ -2,16 +2,17 @@
   "name": "app-fo",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "cross-env PORT=3033 next dev",
-  "build": "next build",
-  "start": "next start -p 3033",
-  "lint": "next lint"
-},
+  "scripts": {
+    "dev":  "cross-env PORT=3033 next dev",
+    "build": "next build",
+    "start": "next start -p 3033",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.10.0",
     "gsap": "^3.13.0",
+    "lottie-react": "^2.4.1",
     "next": "14.2.28",
     "next-intl": "^4.1.0",
     "react": "^18",
