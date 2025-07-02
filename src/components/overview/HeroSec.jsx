@@ -97,7 +97,7 @@ export default function HeroSec() {
           >
             <div className={`${style.scrollUpInner}`}>
               {[...leftImages, ...leftImages].map((imgSrc, i) => (
-                <Image key={`up-${i}`} src={imgSrc} alt="placeholder" />
+                <Image key={`up-${i}`} src={imgSrc} alt="placeholder"  className="w-[200px] h-[200px] object-cover lg:w-auto lg:h-auto"/>
               ))}
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function HeroSec() {
           >
             <div className={`${style.scrollDownInner}`}>
               {[...rightImages, ...rightImages].map((imgSrc, i) => (
-                <Image key={`down-${i}`} src={imgSrc} alt="placeholder" />
+                <Image key={`down-${i}`} src={imgSrc} alt="placeholder"  className="w-[200px] h-[200px] object-cover lg:w-auto lg:h-auto"/>
               ))}
             </div>
           </div>
