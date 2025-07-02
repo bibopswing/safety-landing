@@ -1,13 +1,21 @@
+"use client";
+
 import Container from "../common/Container";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
-import img from "../../assets/images/Placeholder.png";
+import { useRef } from "react";
+import Lottie from "lottie-react";
+import lottieData from "../../assets/images/foundation-co-create/lottie.json";
 import style from "../../assets/styles/modules/foundation-co-create/herosec.module.scss";
 
 export default function HeroSec() {
   const t = useTranslations("foundation-co-create.heroSec");
   const title = t.raw("title");
   const text = t.raw("text");
+  const lottieRef = useRef(null);
+
+  const handleComplete = () => {
+    lottieRef.current?.playSegments([330, 420], true);
+  };
 
   return (
     <Container>
@@ -28,7 +36,16 @@ export default function HeroSec() {
           ))}
         </div>
       </div>
-      <Image className="w-full h-auto mt-[5rem]" src={img} alt="placeholder" />
+      <div className="w-full h-auto mt-[5rem]">
+        <Lottie
+          lottieRef={lottieRef}
+          animationData={lottieData}
+          loop={false}
+          autoplay={true}
+          style={{ width: "100%", height: "auto" }}
+          onComplete={handleComplete}
+        />
+      </div>
     </Container>
   );
 }
