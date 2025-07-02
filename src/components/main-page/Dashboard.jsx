@@ -11,9 +11,9 @@ export default function Dashboard(params) {
         <FadeIn start="top 80%" delay={0.3}>
           <Image src={logo} alt="company name" />
         </FadeIn>
-        <FadeIn start="top 80%">
+        <FadeIn start="top 80%" className="inline-flex justify-center">
           <Image
-            className="translate-y-[-10%]"
+            className="translate-y-[-10%] w-full sm:w-[85%] h-auto"
             src={dashboard}
             alt="dashboard"
           />
