@@ -1,12 +1,12 @@
-import { useTranslations } from "next-intl";
-import Image from "next/image";
+"use client";
 
+import { useTranslations } from "next-intl";
+import Lottie from "lottie-react";
+import lottieData from "../../assets/images/overview/web3.json";
 import Container from "../common/Container";
-import img from "../../assets/images/Placeholder.png"
 import FadeIn from "../common/FadeIn";
 
-export default function Dashboard() { 
-
+export default function Dashboard() {
   const t = useTranslations("overview.dashboard");
 
   return (
@@ -22,8 +22,15 @@ export default function Dashboard() {
       </FadeIn>
       <FadeIn isReverse={true}>
         <div className="flex flex-col gap-[1rem] mt-[2.5rem]">
-          <Image className="w-full" src={img} alt="placeholder" />
-          <p className="grey text-center text-[0.9rem]">{t("text-3") }</p>
+          <div className="w-full">
+            <Lottie
+              animationData={lottieData}
+              loop={true}
+              autoplay={true}
+              style={{ width: "100%" }}
+            />
+          </div>
+          <p className="grey text-center text-[0.9rem]">{t("text-3")}</p>
         </div>
       </FadeIn>
     </Container>

@@ -1,30 +1,23 @@
-import { useTranslations } from "next-intl";
-import Image from "next/image";
+"use client";
 
+import { useTranslations } from "next-intl";
+import Lottie from "lottie-react";
+import lottieData from "../../assets/images/overview/Earning.json";
 import Container from "../common/Container";
 import StripedRows from "../common/StripedRows";
 import FadeIn from "../common/FadeIn";
-
 import GridItemsWithIcons from "../common/GridItemsWithIcons";
-
-import img from "../../assets/images/Placeholder.png";
 import icon_1 from "../../assets/images/overview/earning-opportunities/icon-1.svg";
 import icon_2 from "../../assets/images/overview/earning-opportunities/icon-2.svg";
 import icon_3 from "../../assets/images/overview/earning-opportunities/icon-3.svg";
 import icon_4 from "../../assets/images/overview/earning-opportunities/icon-4.svg";
 
 export default function EarningOpportunities() {
-
   const t = useTranslations("overview.earningOpportunities");
   const list = t.raw("list");
   const list_2 = t.raw("list-2");
 
-  const icons = [
-    icon_1,
-    icon_2,
-    icon_3,
-    icon_4,
-  ];
+  const icons = [icon_1, icon_2, icon_3, icon_4];
 
   const listWithIcons = list_2.map((item, index) => ({
     ...item,
@@ -44,7 +37,17 @@ export default function EarningOpportunities() {
         </div>
       </div>
       <FadeIn isReverse={true}>
-        <Image className="w-full my-[5rem]" src={img} alt="placeholder" />
+        <div className="w-full my-[5rem]">
+          {/* <Lottie
+            animationData={lottieData}
+            loop={true}
+            autoplay={true}
+            style={{ width: "100%" }}
+            rendererSettings={{
+              preserveAspectRatio: "xMidYMid slice",
+            }}
+          /> */}
+        </div>
       </FadeIn>
       <div className="flex flex-col items-center gap-[2.5rem]">
         <h3 className="text-center">{t("subtitle")}</h3>
