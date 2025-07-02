@@ -1,9 +1,11 @@
-import Image from "next/image";
-import placeholder from "../../assets/images/Placeholder.png";
+"use client";
+
 import Container from "../common/Container";
 import { useTranslations } from "next-intl";
 import { mine } from "../../content/mine-earn/mine";
 import FadeIn from "../common/FadeIn";
+import Lottie from "lottie-react";
+import lottieData from "../../assets/images/Mining.json";
 
 export default function ThirdSec() {
   const data = mine.thirdSec;
@@ -14,11 +16,14 @@ export default function ThirdSec() {
     <>
       <FadeIn isReverse={true} end="bottom top" className="flex">
         <Container>
-          <Image
-            className="w-full"
-            src={placeholder}
-            alt="Temporal placeholder"
-          />
+          <div className="w-full">
+            <Lottie
+              animationData={lottieData}
+              loop={true}
+              autoplay={true}
+              style={{ width: "100%" }}
+            />
+          </div>
         </Container>
       </FadeIn>
 
@@ -36,7 +41,10 @@ export default function ThirdSec() {
 
           <div className="mt-10  gap-6 grid  lg:grid-cols-6 lg:grid-rows-2">
             {list.map((item, index) => (
-              <FadeIn isReverse={true}    delay={index * 0.15} end="bottom top"
+              <FadeIn
+                isReverse={true}
+                delay={index * 0.15}
+                end="bottom top"
                 className={`bg-[var(--tertiary-3)] p-6 rounded-2xl border border-[var(--gray)] ${
                   index === list.length - 1 || index === list.length - 2
                     ? "lg:col-span-3"
