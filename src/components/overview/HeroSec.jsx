@@ -6,12 +6,19 @@ import { useTranslations } from "next-intl";
 import Container from "../common/Container";
 import Image from "next/image";
 
-import img from "../../assets/images/Placeholder.png";
+import img1 from "../../assets/images/overview/img1.png";
+import img2 from "../../assets/images/overview/img2.png";
+import img3 from "../../assets/images/overview/img3.png";
+import img4 from "../../assets/images/overview/img4.png";
+import img5 from "../../assets/images/overview/img5.png";
+import img6 from "../../assets/images/overview/img6.png";
+
 import style from "../../assets/styles/modules/overview/herosec.module.scss";
 
 export default function HeroSec() {
   const t = useTranslations("overview.heroSec");
-  const images = [img, img, img];
+  const leftImages = [img1, img2, img3];
+  const rightImages = [img4, img5, img6];
 
   const scrollUpRef = useRef(null);
   const scrollDownRef = useRef(null);
@@ -73,7 +80,6 @@ export default function HeroSec() {
       cleanUpDown?.();
     };
   }, []);
-  
 
   return (
     <Container>
@@ -90,7 +96,7 @@ export default function HeroSec() {
             ref={scrollUpRef}
           >
             <div className={`${style.scrollUpInner}`}>
-              {[...images, ...images].map((imgSrc, i) => (
+              {[...leftImages, ...leftImages].map((imgSrc, i) => (
                 <Image key={`up-${i}`} src={imgSrc} alt="placeholder" />
               ))}
             </div>
@@ -101,7 +107,7 @@ export default function HeroSec() {
             ref={scrollDownRef}
           >
             <div className={`${style.scrollDownInner}`}>
-              {[...images, ...images].map((imgSrc, i) => (
+              {[...rightImages, ...rightImages].map((imgSrc, i) => (
                 <Image key={`down-${i}`} src={imgSrc} alt="placeholder" />
               ))}
             </div>
