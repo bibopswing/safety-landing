@@ -12,8 +12,8 @@ export const getDashboardDataFunction = createAsyncThunk(
         throw new Error("NEXT_PUBLIC_BASE_URL is not defined in environment variables");
       }
       console.log('BASE_URL:', BASE_URL); // Debug log
-      const response = await axios.post(
-        `${BASE_URL}/user/totaluserMinngsupply`,{}
+      const response = await axios.get(
+        `${BASE_URL}/user/totaluserMinngsupply`
       );
 
       dispatch(stopLoading());
