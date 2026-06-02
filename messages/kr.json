@@ -175,7 +175,12 @@
     "f&q": "F&Q",
     "docs": "문서",
     "security": "보안센터",
-    "contact": "문의하기"
+    "contact": "문의하기",
+    "bottom-text-1": "© 2025 SAFETY Foundation. All Rights Reserved.",
+    "bottom-text-2": "보안을 우선으로 하는 디지털 자유의 새로운 시대를 열어보세요.",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "cookies": "쿠키 설정"
   },
 
   "GradientLines": {
